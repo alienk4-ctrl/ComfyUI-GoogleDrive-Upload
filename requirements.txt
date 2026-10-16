@@ -1,30 +1,5 @@
-google-api-python-client
-google-auth
-google-auth-httplib2
-Pillow
+google-api-python-client>=2.100.0
+google-auth>=2.20.0
+google-auth-httplib2>=0.2.0
 numpy
-
-README.md
-markdown
-
-
-# ComfyUI Google Drive Upload
-
-A custom ComfyUI output node for uploading generated images to Google Drive.
-
-## Installation
-
-Clone this repository into your ComfyUI custom_nodes directory:
-
-```bash
-cd ComfyUI/custom_nodes
-git clone YOUR_REPOSITORY_URL ComfyUI-GoogleDrive-Upload
-pip install -r ComfyUI-GoogleDrive-Upload/requirements.txt
-```
-
-Restart ComfyUI and search for "Google Drive Upload".
-
-## Security
-
-Never commit OAuth client secrets, access tokens, refresh tokens,
-or credential JSON files to this repository.
+Pillow
